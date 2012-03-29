@@ -1,3 +1,7 @@
+//#define XERCES_PLATFORM_EXPORT  XERCESC_CLASS
+
+//#define XERCES_PLATFORM_IMPORT  XERCESC_CLASS
+
 #ifdef WIN32
 #include <basetsd.h>
 #endif //WIN32

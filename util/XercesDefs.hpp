@@ -133,7 +133,7 @@ typedef XMLUInt32           UCS4Ch;
 // The DLL_EXPORT flag should be defined on the command line during the build of a DLL
 // configure conspires to make this happen.
 
-#if defined(DLL_EXPORT)
+#if defined(XERCESC_BUILD_AS_DLL)
   #if defined(XERCES_BUILDING_LIBRARY)
     #define XMLUTIL_EXPORT XERCES_PLATFORM_EXPORT
     #define XMLPARSER_EXPORT XERCES_PLATFORM_EXPORT
